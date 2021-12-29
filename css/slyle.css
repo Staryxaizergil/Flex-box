@@ -1,0 +1,88 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* ---------------------------------------------------------------------------- */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.block {
+}
+.block__row {
+	display: flex;
+
+	border: 20px solid #8f00ff;
+	margin: 0 0 20px 0;
+	flex-wrap: wrap;
+}
+.block__column {
+	display: flex;
+	border: 10px solid #c4e769;
+	/*flex: 1 1 25%;*/
+	min-height: 200px;
+	justify-content: center;
+	width: 25%;
+}
+.block__item {
+	font-size: 50px;
+	color: brown;
+	font-weight: 700;
+	justify-content: center;
+	text-align: center;
+}
+.item-1 {
+	background-color: blue;
+	flex: 1;
+}
+.item-2 {
+	background-color: rgb(229, 255, 0);
+	flex: 1;
+}
+.item-3 {
+	background-color: rgb(0, 255, 34);
+	flex: 1;
+}
+.item-4 {
+	background-color: rgb(0, 255, 255);
+	flex: 1;
+}
+.item-5 {
+	background-color: rgb(0, 255, 255);
+	flex: 1;
+}
+.item-6 {
+	background-color: rgb(0, 255, 255);
+	flex: 1;
+}
